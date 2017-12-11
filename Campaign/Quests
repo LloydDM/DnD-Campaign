@@ -1,2 +1,81 @@
+Prologue
+--------
+After meeting up, the PARTY left a roadside inn with a notice bill offering work at a King's Army training camp.  On the way to the camp, the PARTY encountered two worgs and their goblin handler and dispatched them with relative ease.
+
+
+---------------------------------------
 Stop Food Theft from Army Training Camp
 ---------------------------------------
+__ROAD TO ARMY TRAINING CAMP__
+The PARTY possesses a notice bill that they acquired from the inn offering freelance work for able-bodied parties at a King's Army training camp.  
+
+Upon arriving at the camp, they are met at the entrance by ARVIN HILLTOP and CYRUS, both military guards:
+
+DM:
+    As you near the entrance to the camp, you see two guards posted on either side of the muddy path leading deeper in.  One guard has a face full of crude tattoos and piercings, with a surly expression to match.  The other has jaundiced skin, no hair at all, and pockmarks across his arms and legs.
+
+    The tattooed guard spots you heading up the trail, nudges his fellow armyman, and yells:
+
+CYRUS:
+    "That's far enough!  What business have you here?"
+
+*** PARTY presents notice bill:
+    CYRUS:  
+        "Where'd you find this?"
+        - PARTY responds -
+        "A likely story, what made greenhorns like you think you would last one day in the King's Army?  I'll bet you knicked this off a REAL warrior after he had a bit too much to drink, eh Arvin?!"
+        - PARTY responds -
+
+    ARVIN takes the notice and says:
+
+    ARVIN:
+        "Come off it, Cyrus.  We've been posting these in taverns and inns trying to get help for ages now.  The lieutenant needs folk like these since we're so under-manned."
+        - CYRUS rolls his eyes while ARVIN makes a mark on the notice -
+        "Go on in, the lieutenant's tent is the large one in the back.  Don't cause any trouble or you'll be seeing lots more of us."
+        ________________GOTO CAMP INTERIOR________________
+
+*** PARTY does not present notice bill:
+    CYRUS:
+        "What do we look like to you, a couple of knuckle-dragging orcs?  Get lost!"
+
+    *** PARTY presses without showing notice bill:
+        CYRUS:
+            "I'm not going to tell you a third time, Leave. NOW."
+            - CYRUS begins to unsheath his sword, the sound of which alerts 8 nearby King's Army recruits to what's happening at the entrance -
+
+        *** PARTY does not leave:
+            Begin combat with CYRUS, ARVIN, and 8 King's Army recruits
+
+    *** PARTY leaves:
+        DM:
+            As you turn to leave, the sickly guard runs up and asks about the notice bill:
+
+        ARVIN:
+            "Sorry about Cyrus, he's quite hotheaded.  By any chance, were you here in response to our notice of freelance work?"
+
+        *** PARTY affirms:
+            ARVIN:
+                "Great to hear.  You can go on in, the lieutenant's tent is the large one in the back.  Don't cause any trouble or you'll be seeing lots more of us."
+
+        *** PARTY denies:
+            ARVIN:
+                "Ah well.  Off you go, then."
+
+            ________________END________________
+
+__CAMP INTERIOR__
+DM:
+    You trudge through the thick mud down an aisle between a few dozen tents.  The recruits that you see are huddled around small fires cooking their meager rations.  As you look closer, you see many of them are barely adolescents, much less Army fighters.
+
+    In front of the lieutenant's tent stands an exceptionally handsome guard with mismatched eye colors.  He hails you with a smile as you approach:
+
+DURI RUNESHIELD:
+    "Hi there!  Here about the work?  Let's head on in!"
+    ________________GOTO LIEUTENANT'S TENT________________
+
+__LIEUTENANT'S TENT__
+DURI:
+    "Lieutenant Grandcrag, this bunch is here about the work you posted for."
+
+DM:
+    Lieutenant Grandcrag glances up from the missive he is reading.
