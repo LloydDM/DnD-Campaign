@@ -7427,7 +7427,7 @@
     <h2>
       <b>Passage 1</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
       <p class="font-italic">This passage branches off to the West, and there are giant spiderwebs to the North.</p>
@@ -7523,32 +7523,17 @@
     </table>
   </div>
 
-  <div id="p2">
+  <div id="p2" done>
     <hr />
     <h2>
       <b>Passage 2</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This passage has caved in to the West, the walls are damp, and there is an exit to the East.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -7573,12 +7558,6 @@
           <strong>Notable Features:</strong>
         </td>
         <td>Passage has caved in to the West.</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -7625,29 +7604,28 @@
     </table>
   </div>
 
-  <div id="p3">
+  <div id="p3" done>
     <hr />
     <h2>
       <b>Passage 3</b>
-    </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    </h2><br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This passage has some sort of strange green slime clinging to the ceiling.  There are exits to the North, the East, and the South.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
       <tr>
         <td>
-          <strong>Detailed&nbsp;Search:</strong>
+          <strong>Green&nbsp;Slime:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of teh slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+          <p><strong>See <a href="#p3treasure">Treasure</a> if green slime is destroyed</strong></p>
         </td>
       </tr>
     </table>
@@ -7674,18 +7652,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -7702,11 +7668,11 @@
         </td>
         <td>Green slime</td>
       </tr>
-      <tr>
+      <tr id="p3treasure">
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Potion of Greater Healing (4d4 + 4)</td>
       </tr>
       <tr>
         <td>
@@ -7749,7 +7715,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the East and the South.</p>
+      <p class="font-italic">This passage has an earthy smell, and exits to the East and the South.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -7821,7 +7787,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This narrow passage has exits to the East and West, and two doors to the South: one made of wood and one made of iron.</p>
+      <p class="font-italic">This narrow passage with cracks in the ceiling has exits to the East and West, and two doors to the South: one made of wood and one made of iron.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -7896,7 +7862,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This narrow passage has exits to the East and West.</p>
+      <p class="font-italic">This narrow passage is filled with cobwebs and has exits to the East and West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -7961,29 +7927,26 @@
     </table>
   </div>
 
-  <div id="p7">
+  <div id="p7" done>
     <hr />
     <h2>
       <b>Passage 7</b>
-    </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    </h2><br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">In the center of this passage, a pickaxe is embedded into the floor.  There are exits to the North, the East, and the West.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
       <tr>
         <td>
-          <strong>Detailed&nbsp;Search:</strong>
+          <strong>Magic Missile Trap:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <p>If a creature touches the pick handle, 3 MAGIC MISSILES erupt from the knob and home in on the creature that touched the handle, dealing 11 (2d10) force damage.</p>
+          <p><strong>Detect Magic:</strong> If <i>detect magic (PHB 231)</i> is active, then an aura of evocation magic is detected around the pick handle.</p>
         </td>
       </tr>
     </table>
@@ -8007,18 +7970,6 @@
             <li>West: <a href="#c4">c4</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -8048,7 +7999,7 @@
         <td>
           <strong>Trap Severity:</strong>
         </td>
-        <td>Deadly</td>
+        <td>Dangerous</td>
       </tr>
       <tr>
         <td>
@@ -8092,7 +8043,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the South and West.</p>
+      <p class="font-italic">Mold covers the walls in this passage which has exits to the South and West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -8159,32 +8110,17 @@
     </table>
   </div>
 
-  <div id="p9">
+  <div id="p9" done>
     <hr />
     <h2>
       <b>Passage 9</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This passage has an exit to the West, and the door you just entered from to the East.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -8207,18 +8143,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -8227,25 +8151,7 @@
         <td>
           <strong>Chamber Contents:</strong>
         </td>
-        <td>Trap (see 'Random Traps')</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Trap Effect:</strong>
-        </td>
-        <td>Door or other object is coated with contact poison</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Trap Trigger:</strong>
-        </td>
-        <td>Moved (cart, stone block)</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Trap Severity:</strong>
-        </td>
-        <td>Setback</td>
+        <td>Empty Room</td>
       </tr>
       <tr>
         <td>
@@ -8288,7 +8194,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the East, South, and West.</p>
+      <p class="font-italic">The air in this passage is dank, and the passage has exits to the East, South, and West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -8355,17 +8261,16 @@
     </table>
   </div>
 
-  <div id="p11">
+  <div id="p11" done>
     <hr />
     <h2>
       <b>Passage 11</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This passage has a few small piles of dust, and exits to the South and the West.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
@@ -8375,9 +8280,8 @@
           <strong>Detailed&nbsp;Search:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <span class="font-weight-bold">Perception DC 17:</span>
+          <p class="font-italic">In one of the piles of dust, you spot a tiny reflection of your &lt;insert PARTY's lightsource&gt;.  You reach into the dust and pull out a small glass sphere, weighing about a pound.</p>
         </td>
       </tr>
     </table>
@@ -8403,18 +8307,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -8429,7 +8321,7 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Driftglobe</td>
       </tr>
       <tr>
         <td>
@@ -8470,7 +8362,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This narrow passage has exits to the North and the West.</p>
+      <p class="font-italic">There are a few rotting pieces of wood in this narrow passage that has exits to the North and the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -8542,7 +8434,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North and the East.</p>
+      <p class="font-italic">You hear a far-off THUD as you enter this passage that has exits to the North and the East.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -8610,17 +8502,16 @@
     </table>
   </div>
 
-  <div id="p14">
+  <div id="p14" done>
     <hr />
     <h2>
       <b>Passage 14</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">There are some streaks of clear slime running the length of this passage which has exits to the East, the South, and the West.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
@@ -8630,9 +8521,8 @@
           <strong>Detailed&nbsp;Search:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <span class="font-weight-bold">Perception DC 13:</span>
+          <p class="font-italic">Through the goo, you see a small cylindrical tube, inside of which is a Scroll of Detect Magic.</p>
         </td>
       </tr>
     </table>
@@ -8659,18 +8549,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -8685,7 +8563,7 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Scroll of <i>detect magic (PHB 231)</i></td>
       </tr>
       <tr>
         <td>
@@ -8723,10 +8601,10 @@
     <h2>
       <b>Passage 15</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North and West.</p>
+      <p class="font-italic">This passage has a small puddle of water and exits to the North and West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -8798,10 +8676,10 @@
     <h2>
       <b>Passage 16</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This narrow passage has exits to the East and the West.</p>
+      <p class="font-italic">A trickle of water runs down the walls of this narrow passage.  It has exits to the East and the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -8870,10 +8748,10 @@
     <h2>
       <b>Passage 17</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the Northeast, the Southwest, and the Northwest.</p>
+      <p class="font-italic">There are a few coils of rotten rope on the floor of this passage. There are exits to the Northeast, the Southwest, and the Northwest.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -8946,10 +8824,10 @@
     <h2>
       <b>Passage 18</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the East and the Southwest.</p>
+      <p class="font-italic">There are rows of bundles of sticks along the walls of this passage that has exits to the East and the Southwest.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -9021,10 +8899,10 @@
     <h2>
       <b>Passage 19</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North, the East, and the West.</p>
+      <p class="font-italic">The air in this passage is slightly foggy and chillier than other areas of the tomb.  This passage has exits to the North, the East, and the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -9090,29 +8968,29 @@
     </table>
   </div>
 
-  <div id="p20">
+  <div id="p20" done>
     <hr />
     <h2>
       <b>Passage 20</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">There is a modestly sized purple plant in the corner of this narrow passage.  Exits from this chamber are to the South and West.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
       <tr>
         <td>
-          <strong>Detailed&nbsp;Search:</strong>
+          <strong>Violet&nbsp;Fungus:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <p>AC: 5, HP: 19, SP: 5 ft.</p>
+          Immune to blind, deaf, frighten<br>
+          The fungus makes 1d4 Rotting Touch attacks:<br>
+          Attack +2, Reach 10 ft., 4 (1d8) necrotic damage
         </td>
       </tr>
     </table>
@@ -9135,18 +9013,6 @@
             <li>West: <a href="#c6">c6</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -9200,32 +9066,17 @@
     </table>
   </div>
 
-  <div id="p21">
+  <div id="p21" done>
     <hr />
     <h2>
       <b>Passage 21</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">You find 20 gp lying on the ground in this narrow passage.  There are exits to the East and the West.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -9248,18 +9099,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -9274,7 +9113,7 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>20 gp</td>
       </tr>
       <tr>
         <td>
@@ -9316,7 +9155,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This narrow passage has exits to the East and the West.</p>
+      <p class="font-italic">You see corroded chains hanging from the walls in this narrow passage that has exits to the East and the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
