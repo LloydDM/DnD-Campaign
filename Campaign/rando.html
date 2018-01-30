@@ -621,7 +621,7 @@
     </table>
   </div>
 
-  <div id="c4">
+  <div id="c4" monster-dominant-treasure>
     <hr />
     <h2>
       <b>Chamber 4</b>
@@ -809,7 +809,7 @@
     </table>
   </div>
 
-  <div id="c5">
+  <div id="c5" monster-random>
     <hr />
     <h2>
       <b>Chamber 5</b>
@@ -985,7 +985,7 @@
     </table>
   </div>
 
-  <div id="c6">
+  <div id="c6" read-aloud>
     <hr />
     <h2>
       <b>Chamber 6</b>
@@ -1006,8 +1006,6 @@
         </td>
         <td>
           <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
         </td>
       </tr>
     </table>
@@ -1035,13 +1033,7 @@
         <td>
           <strong>Notable Features:</strong>
         </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
+        <td>Part of this chamber has caved in</td>
       </tr>
       <tr>
         <td>
@@ -1159,7 +1151,7 @@
     </table>
   </div>
 
-  <div id="c7">
+  <div id="c7" monster-ally-treasure>
     <hr />
     <h2>
       <b>Chamber 7</b>
@@ -1347,7 +1339,7 @@
     </table>
   </div>
 
-  <div id="c8">
+  <div id="c8" read-aloud>
     <hr />
     <h2>
       <b>Chamber 8</b>
@@ -1429,7 +1421,7 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Spell Scroll (2nd level) Moonbeam (PHB 261)</td>
       </tr>
       <tr>
         <td>
@@ -1521,7 +1513,7 @@
     </table>
   </div>
 
-  <div id="c9">
+  <div id="c9" read-aloud>
     <hr />
     <h2>
       <b>Chamber 9</b>
@@ -1689,7 +1681,7 @@
     </table>
   </div>
 
-  <div id="c10">
+  <div id="c10" read-aloud>
     <hr />
     <h2>
       <b>Chamber 10</b>
@@ -1704,6 +1696,16 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Spiderwebs:</strong>
+        </td>
+        <td>
+          <p>Spiderwebs count as difficult terrain</p>
+          <p>A creature entering a web-filled area must succeed on a Dexterity DC 12 saving throw or become restrained.  A restrained creature can use it's action to escape by succeeding on a Athletics DC 12 or Acrobatics DC 12 saving throw.</p>
+          <p>Each 10-foot cube of giant webs has AC 10, 15 HP, vulnerability to fire, and immunity to bludgeoning, piercing, and psychic damage.</p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -1863,7 +1865,7 @@
     </table>
   </div>
 
-  <div id="c11">
+  <div id="c11" monster-ally-treasure>
     <hr />
     <h2>
       <b>Chamber 11</b>
@@ -2051,7 +2053,7 @@
     </table>
   </div>
 
-  <div id="c12">
+  <div id="c12" read-aloud>
     <hr />
     <h2>
       <b>Chamber 12</b>
@@ -2131,7 +2133,7 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>1100 sp</td>
       </tr>
       <tr>
         <td>
@@ -2221,7 +2223,7 @@
     </table>
   </div>
 
-  <div id="c13">
+  <div id="c13" monster-ally>
     <hr />
     <h2>
       <b>Chamber 13</b>
@@ -2399,7 +2401,7 @@
     </table>
   </div>
 
-  <div id="c14">
+  <div id="c14" read-aloud>
     <hr />
     <h2>
       <b>Chamber 14</b>
@@ -2414,6 +2416,17 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Green&nbsp;Slime:</strong>
+        </td>
+        <td>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+          <p><strong>See <a href="#c14treasure">Treasure</a> if green slime is destroyed</strong></p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -2481,11 +2494,18 @@
         </td>
         <td>Green slime</td>
       </tr>
-      <tr>
+      <tr id="c14treasure">
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>
+          <ul>
+            <li>Black velvet mask stitched with silver thread</li>
+            <li>Copper chalice with silver filigree</li>
+            <li>Small mirror set in a painted wooden frame</li>
+            <li>Cloth-of-gold vestments</li>
+          </ul>
+        </td>
       </tr>
       <tr>
         <td>
@@ -2573,7 +2593,7 @@
     </table>
   </div>
 
-  <div id="c15">
+  <div id="c15" read-aloud>
     <hr />
     <h2>
       <b>Chamber 15</b>
@@ -2596,6 +2616,14 @@
           <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
           <span class="font-weight-bold">Perception DC</span>
           <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Hidden Pit Trap:</strong>
+        </td>
+        <td>
+          <p>There are two carts blocking a route through the room.  If a creature moves either of the carts, a hidden pit opens underneath the carts and the creature falls 20 feet, taking 2d6 bludgeoning damage.</p>
         </td>
       </tr>
     </table>
@@ -2664,13 +2692,13 @@
         <td>
           <strong>Trap Severity:</strong>
         </td>
-        <td>Deadly</td>
+        <td>Dangerous</td>
       </tr>
       <tr>
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>2x Potions of Greater Healing 4d4 + 4</td>
       </tr>
       <tr>
         <td>
@@ -2758,7 +2786,7 @@
     </table>
   </div>
 
-  <div id="c16">
+  <div id="c16" monster-ally>
     <hr />
     <h2>
       <b>Chamber 16</b>
@@ -2938,7 +2966,7 @@
     </table>
   </div>
 
-  <div id="c17">
+  <div id="c17" read-aloud>
     <hr />
     <h2>
       <b>Chamber 17</b>
@@ -2961,6 +2989,14 @@
           <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
           <span class="font-weight-bold">Perception DC</span>
           <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Suit of Armor Trick:</strong>
+        </td>
+        <td>
+          <p>A suit of armor in this room is affixed to it's mount with Sovereign Glue.  If a PC attempts to remove the armor, all magic items are suppressed until dawn.</p>
         </td>
       </tr>
     </table>
@@ -3120,7 +3156,7 @@
     </table>
   </div>
 
-  <div id="c18">
+  <div id="c18" monster-ally-treasure>
     <hr />
     <h2>
       <b>Chamber 18</b>
@@ -3303,7 +3339,7 @@
     </table>
   </div>
 
-  <div id="c19">
+  <div id="c19" read-aloud>
     <hr />
     <h2>
       <b>Chamber 19</b>
@@ -3318,6 +3354,16 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Green&nbsp;Slime:</strong>
+        </td>
+        <td>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -3475,7 +3521,7 @@
     </table>
   </div>
 
-  <div id="c20">
+  <div id="c20" monster-dominant>
     <hr />
     <h2>
       <b>Chamber 20</b>
@@ -3654,7 +3700,7 @@
     </table>
   </div>
 
-  <div id="c21">
+  <div id="c21" read-aloud>
     <hr />
     <h2>
       <b>Chamber 21</b>
@@ -3669,6 +3715,17 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Spiderwebs:</strong>
+        </td>
+        <td>
+          <p>Spiderwebs count as difficult terrain</p>
+          <p>A creature entering a web-filled area must succeed on a Dexterity DC 12 saving throw or become restrained.  A restrained creature can use it's action to escape by succeeding on a Athletics DC 12 or Acrobatics DC 12 saving throw.</p>
+          <p>Each 10-foot cube of giant webs has AC 10, 15 HP, vulnerability to fire, and immunity to bludgeoning, piercing, and psychic damage.</p>
+          <p><strong>See <a href="#c21treasure">Treasure</a> if spiderwebs are destroyed</strong></p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -3737,11 +3794,11 @@
         </td>
         <td>Spiderwebs</td>
       </tr>
-      <tr>
+      <tr id="c21treasure">
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>2x Zircon (transparent pale blue-green - 50 gp)</td>
       </tr>
       <tr>
         <td>
@@ -3833,7 +3890,7 @@
     </table>
   </div>
 
-  <div id="c22">
+  <div id="c22" boss room>
     <hr />
     <h2>
       <b>Chamber 22</b>
@@ -4012,7 +4069,7 @@
     </table>
   </div>
 
-  <div id="c23">
+  <div id="c23" monster-random>
     <hr />
     <h2>
       <b>Chamber 23</b>
@@ -4188,7 +4245,7 @@
     </table>
   </div>
 
-  <div id="c24">
+  <div id="c24" monster-random>
     <hr />
     <h2>
       <b>Chamber 24</b>
@@ -4370,7 +4427,7 @@
     </table>
   </div>
 
-  <div id="c25">
+  <div id="c25" monster-random-treasure>
     <hr />
     <h2>
       <b>Chamber 25</b>
@@ -4555,7 +4612,7 @@
     </table>
   </div>
 
-  <div id="c26">
+  <div id="c26" traps>
     <hr />
     <h2>
       <b>Chamber 26</b>
@@ -4743,7 +4800,7 @@
     </table>
   </div>
 
-  <div id="c27">
+  <div id="c27" read-aloud>
     <hr />
     <h2>
       <b>Chamber 27</b>
@@ -4758,6 +4815,16 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Green&nbsp;Slime:</strong>
+        </td>
+        <td>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -4916,7 +4983,7 @@
     </table>
   </div>
 
-  <div id="c28">
+  <div id="c28" read-aloud>
     <hr />
     <h2>
       <b>Chamber 28</b>
@@ -4931,6 +4998,16 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Green&nbsp;Slime:</strong>
+        </td>
+        <td>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -5091,7 +5168,7 @@
     </table>
   </div>
 
-  <div id="c29">
+  <div id="c29" monster-ally>
     <hr />
     <h2>
       <b>Chamber 29</b>
@@ -5274,7 +5351,7 @@
     </table>
   </div>
 
-  <div id="c30">
+  <div id="c30" traps>
     <hr />
     <h2>
       <b>Chamber 30</b>
@@ -5465,7 +5542,7 @@
     </table>
   </div>
 
-  <div id="c31">
+  <div id="c31" read-aloud>
     <hr />
     <h2>
       <b>Chamber 31</b>
@@ -5538,25 +5615,25 @@
         <td>
           <strong>Chamber Contents:</strong>
         </td>
-        <td>Trap (see 'Random Traps')</td>
+        <td>Empty room with lots of treasure</td>
       </tr>
       <tr>
         <td>
-          <strong>Trap Effect:</strong>
+          <strong>Treasure:</strong>
         </td>
-        <td>Floor collapses or is an illusion</td>
-      </tr>
-      <tr>
         <td>
-          <strong>Trap Trigger:</strong>
+          <ul>
+            <li>1100 cp</li>
+            <li>600 sp</li>
+            <li>30 gp</li>
+            <li>Silver ewer</li>
+            <li>Black velvet mask stitched with silver thread</li>
+            <li>Potion of Hill Giant Strength (Uncommon - DMG p. 187)</li>
+            <li>Keoghtom's Ointment, 2 doses (Uncommon - DMG p. 179)</li>
+            <li>Potion of Growth (Uncommon - DMG p. 187)</li>
+            <li>Potion of Fire Breath (Uncommon - DMG p. 187)</li>
+          </ul>
         </td>
-        <td>Looked at (mural, arcane symbol)</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Trap Severity:</strong>
-        </td>
-        <td>Dangerous</td>
       </tr>
       <tr>
         <td>
@@ -5647,7 +5724,7 @@
     </table>
   </div>
 
-  <div id="c32">
+  <div id="c32" read-aloud>
     <hr />
     <h2>
       <b>Chamber 32</b>
@@ -5668,8 +5745,17 @@
         </td>
         <td>
           <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <span class="font-weight-bold">Perception DC 17</span>
+          <p class="font-italic">You notice that the chest has some additional linkages around the hinge that don't seem to be in service of the hinge pivot.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Treasure Chest Trap:</strong>
+        </td>
+        <td>
+          <p>If a creature opens the prisoner's chest, they are hit with poisoned darts that fire out of the lid.</p>
+          <p>Poison Darts: 11 (2d10) poison damage and poisoned condition. Constitution DC 17 for half damage and no condition.</p>
         </td>
       </tr>
     </table>
@@ -5828,7 +5914,7 @@
     </table>
   </div>
 
-  <div id="c33">
+  <div id="c33" read-aloud>
     <hr />
     <h2>
       <b>Chamber 33</b>
@@ -5851,6 +5937,14 @@
           <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
           <span class="font-weight-bold">Perception DC</span>
           <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Skull Trick:</strong>
+        </td>
+        <td>
+          <p>A creature who picks up the larger than ordinary skull is enlarged by one size class (Use <i>enlarge (PHB 237)</i>).</p>
         </td>
       </tr>
     </table>
@@ -6007,7 +6101,7 @@
     </table>
   </div>
 
-  <div id="c34">
+  <div id="c34" monster-random-treasure>
     <hr />
     <h2>
       <b>Chamber 34</b>
@@ -6188,7 +6282,7 @@
     </table>
   </div>
 
-  <div id="c35">
+  <div id="c35" shrieker-treasure>
     <hr />
     <h2>
       <b>Chamber 35</b>
@@ -6367,7 +6461,7 @@
     </table>
   </div>
 
-  <div id="c36">
+  <div id="c36" monster-ally cult-leader-mini-boss>
     <hr />
     <h2>
       <b>Chamber 36</b>
@@ -6539,7 +6633,7 @@
     </table>
   </div>
 
-  <div id="c37">
+  <div id="c37" read-aloud>
     <hr />
     <h2>
       <b>Chamber 37</b>
@@ -6554,6 +6648,16 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Green&nbsp;Slime:</strong>
+        </td>
+        <td>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -6711,7 +6815,7 @@
     </table>
   </div>
 
-  <div id="c38">
+  <div id="c38" monster-random-treasure>
     <hr />
     <h2>
       <b>Chamber 38</b>
@@ -6895,7 +6999,7 @@
     </table>
   </div>
 
-  <div id="c39">
+  <div id="c39" read-aloud>
     <hr />
     <h2>
       <b>Chamber 39</b>
@@ -7063,7 +7167,7 @@
     </table>
   </div>
 
-  <div id="c40">
+  <div id="c40" read-aloud>
     <hr />
     <h2>
       <b>Chamber 40</b>
@@ -7086,6 +7190,17 @@
           <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
           <span class="font-weight-bold">Perception DC</span>
           <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Violet&nbsp;Fungus:</strong>
+        </td>
+        <td>
+          <p>AC: 5, HP: 19, SP: 5 ft.</p>
+          Immune to blind, deaf, frighten<br>
+          The fungus makes 1d4 Rotting Touch attacks:<br>
+          Attack +2, Reach 10 ft., 4 (1d8) necrotic damage
         </td>
       </tr>
     </table>
@@ -7148,7 +7263,13 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>
+          <ul>
+            <li>Bloodstone (opaque dark gray with red flecks - 50 gp)</li>
+            <li>Carnelian (opaque orange to red-brown - 50 gp)</li>
+            <li>Star rose quartz (translucent rosy stone with star-shaped center - 50 gp)</li>
+          </ul>
+        </td>
       </tr>
       <tr>
         <td>
@@ -7240,7 +7361,7 @@
     </table>
   </div>
 
-  <div id="c41">
+  <div id="c41" monster-ally-treasure>
     <hr />
     <h2>
       <b>Chamber 41</b>
@@ -7622,7 +7743,7 @@
           <strong>Green&nbsp;Slime:</strong>
         </td>
         <td>
-          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of teh slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
           <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
           <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
           <p><strong>See <a href="#p3treasure">Treasure</a> if green slime is destroyed</strong></p>
@@ -9152,7 +9273,7 @@
     <h2>
       <b>Passage 22</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
       <p class="font-italic">You see corroded chains hanging from the walls in this narrow passage that has exits to the East and the West.</p>
@@ -9221,29 +9342,28 @@
     </table>
   </div>
 
-  <div id="p23">
+  <div id="p23" done>
     <hr />
     <h2>
       <b>Passage 23</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This passage is especially frigid with a patch of brown mold on the floor.  There are exits to the South and the West.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
       <tr>
         <td>
-          <strong>Detailed&nbsp;Search:</strong>
+          <strong>Brown&nbsp;Mold:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <p>A patch of brown mold typically covers a 10-foot square, and the temperature within 30 feet of it is always frigid.</p>
+          <p>When a creature moves to within 5 feet of the mold for the first time on a turn or starts its turn there, it must make a Constitution DC 12 saving throw, taking 11 (2d10) cold damage on a failed save, or half as much damage on a successful one.</p>
+          <p>Brown mold is immune to fire, and any source of fire brought within 5 feet of a patch causes it to instantly expand outward in the direction of the fire, covering a 10-foot square area (with the source of the fire as the center of that area).  A patch of brown mold exposed to an effect that deals cold damage is instantly destroyed.</p>
         </td>
       </tr>
     </table>
@@ -9266,18 +9386,6 @@
             <li>West: <a href="#c7">c7</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -9329,16 +9437,32 @@
     </table>
   </div>
 
-  <div id="p24" needs secret door mechanics>
+  <div id="p24" done>
     <hr />
     <h2>
       <b>Passage 24</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North and the East.</p>
+      <p class="font-italic">Smoke from some mirrored torch sconces hangs near the ceiling in this passage and there are exits to the North and the East.</p>
     </div>
+    <br />
+    <h4>Mechanics:</h4>
+    <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Secret&nbsp;Door:</strong>
+        </td>
+        <td>
+          This door is made to blend in with the stone wall and opens into the next passage.  It will only open if the lit torches match the floor tiles on the opposite side of the passage.  If the PARTY percieves the door, but can't figure out the torch pattern, they can resort to physical means to open the door:<br>
+          <strong>Strength DC 21</strong> to push the door open.<br>
+          <strong>Attack:</strong><br>
+          Damage Resistances: Slashing, Piercing, All magical except Force and Thunder<br>
+          HP: 40
+        </td>
+      </tr>
+    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -9403,7 +9527,7 @@
     </table>
   </div>
 
-  <div id="p25" needs secret door mechanics>
+  <div id="p25" done>
     <hr />
     <h2>
       <b>Passage 25</b>
@@ -9411,7 +9535,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has an exit to the South.</p>
+      <p class="font-italic">This passage has an exit to the South and the secret door you came in through to the North.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -9476,29 +9600,29 @@
     </table>
   </div>
 
-  <div id="p26">
+  <div id="p26" done>
     <hr />
     <h2>
       <b>Passage 26</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This cold passage has a patch of brown mold in the corner and exits to the East and to the South.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
       <tr>
         <td>
-          <strong>Detailed&nbsp;Search:</strong>
+          <strong>Brown&nbsp;Mold:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <p>A patch of brown mold typically covers a 10-foot square, and the temperature within 30 feet of it is always frigid.</p>
+          <p>When a creature moves to within 5 feet of the mold for the first time on a turn or starts its turn there, it must make a Constitution DC 12 saving throw, taking 11 (2d10) cold damage on a failed save, or half as much damage on a successful one.</p>
+          <p>Brown mold is immune to fire, and any source of fire brought within 5 feet of a patch causes it to instantly expand outward in the direction of the fire, covering a 10-foot square area (with the source of the fire as the center of that area).  A patch of brown mold exposed to an effect that deals cold damage is instantly destroyed.</p>
+          <p><strong>See <a href="#p26treasure">Treasure</a> if brown mold is destroyed</strong></p>
         </td>
       </tr>
     </table>
@@ -9522,19 +9646,6 @@
           </ul>
         </td>
       </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
         <td>
           <strong>Chamber Purpose:</strong>
         </td>
@@ -9552,11 +9663,11 @@
         </td>
         <td>Brown mold</td>
       </tr>
-      <tr>
+      <tr id="p26treasure">
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Tan Bag of Tricks (DMG 154)</td>
       </tr>
       <tr>
         <td>
@@ -9596,7 +9707,7 @@
     <h2>
       <b>Passage 27</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
       <p class="font-italic">This wide passage has a row of columns down the middle, with an exit to the North and a Portcullis to the South.</p>
@@ -9670,10 +9781,10 @@
     <h2>
       <b>Passage 28</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North, the South, and the West.</p>
+      <p class="font-italic">This passage has a mound of teeth and exits to the North, the South, and the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -9746,10 +9857,10 @@
     <h2>
       <b>Passage 29</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the East and the South, and a wooden door to the West.</p>
+      <p class="font-italic">You see a skeleton wearing a pair of leather boots hanging upside down from the ceiling.  This passage has exits to the East and the South, and a wooden door to the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -9822,10 +9933,10 @@
     <h2>
       <b>Passage 30</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has an exit to the Northwest, and a wooden door to the East.</p>
+      <p class="font-italic">This long passage has an exit to the Northwest, and a wooden door to the East.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -9895,7 +10006,7 @@
     <h2>
       <b>Passage 31</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
       <p class="font-italic">This passage has exits to the North and the East.</p>
@@ -9963,13 +10074,12 @@
     </table>
   </div>
 
-  <div id="p32">
+  <div id="p32" done>
     <hr />
     <h2>
       <b>Passage 32</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
@@ -9983,9 +10093,27 @@
           <strong>Detailed&nbsp;Search:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <span class="font-weight-bold">Perception DC 13</span>
+          <p class="font-italic">You see that what you thought was a door, is actually an expertly painted representation of a door, with a doorknob affixed directly to the wall.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Green&nbsp;Slime:</strong>
+        </td>
+        <td>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>False Door Trap:</strong>
+        </td>
+        <td>
+          If a creature touches the doorknob, they take 9 (2d8) fire damage, as if the doorknob had <i>heat metal (PHB 250)</i> cast on it.
+          <p><strong>Detect Magic:</strong> If <i>detect magic (PHB 231)</i> is active, then an aura of transmutation magic is detected around the doorknob.</p>
         </td>
       </tr>
     </table>
@@ -10008,18 +10136,6 @@
             <li>West: <a href="#p31">p31</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -10070,32 +10186,17 @@
     </table>
   </div>
 
-  <div id="p33">
+  <div id="p33" done>
     <hr />
     <h2>
       <b>Passage 33</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">You smell a strong urine odor in this passage.  There are exits to the North and the West.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -10118,18 +10219,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -10138,13 +10227,7 @@
         <td>
           <strong>Chamber Contents:</strong>
         </td>
-        <td>Obstacle (see 'Random Obstacles')</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Obstacle:</strong>
-        </td>
-        <td>Battering winds reduce speed by half, impose disadvantage on ranged attack rolls</td>
+        <td>Empty room</td>
       </tr>
       <tr>
         <td>
@@ -10177,17 +10260,29 @@
     </table>
   </div>
 
-  <div id="p44" needs locked portcullis mechanics>
+  <div id="p44" done>
     <hr />
     <h2>
       <b>Passage 44</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
       <p class="font-italic">This passage has an exit to the East and a portcullis to the West.</p>
     </div>
     <br />
+    <h4>Mechanics:</h4>
+    <table>
+      <tr>
+        <td>
+          <strong>Locked&nbsp;Portcullis:</strong>
+        </td>
+        <td>
+          The portcullis cannot be raised, the PARTY can see through it to the room beyond.
+        </td>
+      </tr>
+    </table>
+    <br>
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
       <tr>
@@ -10252,29 +10347,26 @@
     </table>
   </div>
 
-  <div id="p45">
+  <div id="p45" done>
     <hr />
     <h2>
       <b>Passage 45</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">Some of the pillars in this large passage have failed, causing a cave-in.  There is an exit to the West, and a portcullis to the East.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
       <tr>
         <td>
-          <strong>Detailed&nbsp;Search:</strong>
+          <strong>Locked&nbsp;Portcullis:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          The portcullis cannot be raised, the PARTY can see through it to the room beyond.
         </td>
       </tr>
     </table>
@@ -10297,18 +10389,6 @@
             <li>West: <a href="#c18">c18</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -10366,10 +10446,10 @@
     <h2>
       <b>Passage 46</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has an exit to the South, and a Portcullis to the North.</p>
+      <p class="font-italic">This short passage has an exit to the South, and a Portcullis to the North.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -10439,10 +10519,10 @@
     <h2>
       <b>Passage 47</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North and the South.</p>
+      <p class="font-italic">This short passage has exits to the North and the South.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -10512,10 +10592,10 @@
     <h2>
       <b>Passage 48</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the East and the West.</p>
+      <p class="font-italic">This passage has damp walls and exits to the East and the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -10582,32 +10662,17 @@
     </table>
   </div>
 
-  <div id="p49">
+  <div id="p49" done>
     <hr />
     <h2>
       <b>Passage 49</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This passage is flooded with water 20 feet deep.  There are exits to the North and the South.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -10627,18 +10692,6 @@
             <li>South: <a href="#p50">p50</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -10695,10 +10748,10 @@
     <h2>
       <b>Passage 50</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North, the East, and the South.</p>
+      <p class="font-italic">This passage smells like rotting plants and has exits to the North, the East, and the South.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -10769,10 +10822,10 @@
     <h2>
       <b>Passage 51</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has an exit to the West and a wooden door to the East.</p>
+      <p class="font-italic">This passage has streaks of blood on the walls, an exit to the West, and a wooden door to the East.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -10837,32 +10890,17 @@
     </table>
   </div>
 
-  <div id="p52">
+  <div id="p52" done>
     <hr />
     <h2>
       <b>Passage 52</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">A deep chasm bisects this passage and there are exits to the North and the West.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -10882,18 +10920,6 @@
             <li>West: <a href="#p53">p53</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -10954,7 +10980,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has an exit to the East.</p>
+      <p class="font-italic">This passage dead-ends in front of you and has an exit to the East.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -11018,32 +11044,17 @@
     </table>
   </div>
 
-  <div id="p54">
+  <div id="p54" done>
     <hr />
     <h2>
       <b>Passage 54</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br>
     <br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">A flask of a cloudy green liquid sits on the ground in this passage.  There are exits to the South and the West.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -11066,18 +11077,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -11092,7 +11091,7 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Potion of Water Breathing (DMG 188)</td>
       </tr>
       <tr>
         <td>
@@ -11133,7 +11132,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the North and the East.</p>
+      <p class="font-italic">This dirty passage has exits to the North and the East.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -11200,32 +11199,16 @@
     </table>
   </div>
 
-  <div id="p56">
+  <div id="p56" done>
     <hr />
     <h2>
       <b>Passage 56</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br />
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">You see a flask of shimmering red liquid on the ground.  This passage has an exit to the West, and a wooden door to the South.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -11248,18 +11231,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -11274,7 +11245,7 @@
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Potion of Greater Healing 4d4 + 4</td>
       </tr>
       <tr>
         <td>
@@ -11307,32 +11278,16 @@
     </table>
   </div>
 
-  <div id="p57">
+  <div id="p57" done>
     <hr />
     <h2>
       <b>Passage 57</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br />
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This narrow passage has exits to the South and the West, and a Wooden Door to the East.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -11348,23 +11303,11 @@
         </td>
         <td>
           <ul>
-            <li>East: <a href="#c26">c26</a> Wooden, Locked Door</li>
-            <li>Soutch: <a href="#c29">c29</a></li>
+            <li>East: <a href="#c26">c26</a> Wooden, Locked Door - Dex DC 16 to unlock with Thieves Tools</li>
+            <li>South: <a href="#c29">c29</a></li>
             <li>West: <a href="#c27">c27</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -11376,13 +11319,7 @@
         <td>
           <strong>Chamber Contents:</strong>
         </td>
-        <td>Obstacle (see 'Random Obstacles')</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Obstacle:</strong>
-        </td>
-        <td>Chasm 30 ft. wide and 110 ft. deep, possibly connected to other levels of the dungeon</td>
+        <td>Empty Room</td>
       </tr>
       <tr>
         <td>
@@ -11426,7 +11363,7 @@
     <br /><br><input type="checkbox">Found?<br>
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">This passage has exits to the East and the West.</p>
+      <p class="font-italic">This short passage has exits to the East and the West.</p>
     </div>
     <br />
     <h4>Features:</h4>
@@ -11491,29 +11428,34 @@
     </table>
   </div>
 
-  <div id="p59">
+  <div id="p59" done>
     <hr />
     <h2>
       <b>Passage 59</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br />
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">A stone obelisk stands next to an iron door on the North wall of this passage.  There are also exits to the East and the West.</p>
     </div>
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
       <tr>
         <td>
-          <strong>Detailed&nbsp;Search:</strong>
+          <strong>Obelisk&nbsp;Riddle:</strong>
         </td>
         <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
+          <p class="font-italic">The obelisk has written on it:</p>
+          <p class="font-italic">
+            I weaken all men for hours each day.<br>
+            I show you strange visions while you are away.<br>
+            I take you by night, by day take you back,<br>
+            None suffer to have me, but do from my lack.
+          </p>
+          <p>If the obelisk is affected by <i>sleep (PHB 276)</i>, the locked vault door opens.</p>
+          <span class="font-weight-bold">Perception DC 10:</span>
+          <p class="font-italic">You see a 4-line poem carved into each side of the obelisk.</p>
         </td>
       </tr>
     </table>
@@ -11537,18 +11479,6 @@
             <li>West: <a href="#c30">c30</a></li>
           </ul>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
       </tr>
       <tr>
         <td>
@@ -11611,7 +11541,7 @@
     <h2>
       <b>Passage 60</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
       <p class="font-italic">These stairs go down three levels and exit to the West.</p>
@@ -11686,7 +11616,7 @@
     <h2>
       <b>Passage 61</b>
     </h2>
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
       <p class="font-italic">This passage has exits to the East and the West, and a wooden door to the South.</p>
@@ -11758,32 +11688,16 @@
     </table>
   </div>
 
-  <div id="p62">
+  <div id="p62" done>
     <hr />
     <h2>
       <b>Passage 62</b>
     </h2>
-    <span class="text-muted">TODO: DESCRIPTION GOES HERE</span>
-    <br />
-    <br /><br><input type="checkbox">Found?<br>
+    <br><input type="checkbox">Found?<br><br />
     <h4>Read-Aloud:</h4>
     <div class="col-md-3">
-      <p class="font-italic">TODO: READ ALOUD TEXT GOES HERE</p>
+      <p class="font-italic">This passage has exits to the East and the West, a wooden door to the South, and a stoppered flask on a shelf.</p>
     </div>
-    <br />
-    <h4>Mechanics:</h4>
-    <table class="table table-sm table-striped">
-      <tr>
-        <td>
-          <strong>Detailed&nbsp;Search:</strong>
-        </td>
-        <td>
-          <p class="font-italic">TODO: DETAILED SEARCH TEXT GOES HERE</p>
-          <span class="font-weight-bold">Perception DC</span>
-          <p class="font-italic">TODO: SEARCH SKILL CHECK TEXT GOES HERE</p>
-        </td>
-      </tr>
-    </table>
     <br />
     <h4>Features:</h4>
     <table class="table table-sm table-striped">
@@ -11807,18 +11721,6 @@
       </tr>
       <tr>
         <td>
-          <strong>Notable Features:</strong>
-        </td>
-        <td>TODO: NOTABLE FEATURES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Special Rules:</strong>
-        </td>
-        <td>TODO: SPECIAL RULES TEXT GOES HERE</td>
-      </tr>
-      <tr>
-        <td>
           <strong>Chamber Purpose:</strong>
         </td>
         <td>Passage</td>
@@ -11827,19 +11729,13 @@
         <td>
           <strong>Chamber Contents:</strong>
         </td>
-        <td>Dungeon hazard (see 'Random Dungeon Hazards') with incidental treasure</td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Dungeon Hazard:</strong>
-        </td>
-        <td>Shrieker</td>
+        <td>Empty room with treasure</td>
       </tr>
       <tr>
         <td>
           <strong>Treasure:</strong>
         </td>
-        <td>TODO: TREASURE TEXT GOES HERE</td>
+        <td>Decanter of Endless Water (DMG 161)</td>
       </tr>
       <tr>
         <td>
@@ -12092,6 +11988,16 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Spiderwebs:</strong>
+        </td>
+        <td>
+          <p>Spiderwebs count as difficult terrain</p>
+          <p>A creature entering a web-filled area must succeed on a Dexterity DC 12 saving throw or become restrained.  A restrained creature can use it's action to escape by succeeding on a Athletics DC 12 or Acrobatics DC 12 saving throw.</p>
+          <p>Each 10-foot cube of giant webs has AC 10, 15 HP, vulnerability to fire, and immunity to bludgeoning, piercing, and psychic damage.</p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
@@ -12539,6 +12445,17 @@
     <table class="table table-sm table-striped">
       <tr>
         <td>
+          <strong>Spiderwebs:</strong>
+        </td>
+        <td>
+          <p>Spiderwebs count as difficult terrain</p>
+          <p>A creature entering a web-filled area must succeed on a Dexterity DC 12 saving throw or become restrained.  A restrained creature can use it's action to escape by succeeding on a Athletics DC 12 or Acrobatics DC 12 saving throw.</p>
+          <p>Each 10-foot cube of giant webs has AC 10, 15 HP, vulnerability to fire, and immunity to bludgeoning, piercing, and psychic damage.</p>
+          <p><strong>See <a href="#p70treasure">Treasure</a> if spiderwebs are destroyed</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <strong>Detailed&nbsp;Search:</strong>
         </td>
         <td>
@@ -12597,7 +12514,7 @@
         </td>
         <td>Spiderwebs</td>
       </tr>
-      <tr>
+      <tr id="p70treasure">
         <td>
           <strong>Treasure:</strong>
         </td>
@@ -13265,6 +13182,17 @@
     <br />
     <h4>Mechanics:</h4>
     <table class="table table-sm table-striped">
+      <tr>
+        <td>
+          <strong>Green&nbsp;Slime:</strong>
+        </td>
+        <td>
+          <p>A patch of green slime covers a 5-foot square, has blindsight out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it.  Beyond that, it has no ability to move.  A creature aware of the slime's presence can avoid being struck with it by succeeding on a Dexterity DC 10 saving throw.  Otherwise, the slime can't be avoided as it drops.</p>
+          <p>A creature that comes into contact with green slime takes 5 (1d10) acid damage.  The creature takes the damage again at the start of each turn until the slime is scraped off or destroyed.  Against wood or metal, green slime deals 11 (2d10) acid damage each round, and any non-magical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.</p>
+          <p>Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime.</p>
+          <p><strong>See <a href="#ptreasure">Treasure</a> if green slime is destroyed</strong></p>
+        </td>
+      </tr>
       <tr>
         <td>
           <strong>Detailed&nbsp;Search:</strong>
